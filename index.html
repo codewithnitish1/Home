@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codewithnitish</title>
+    <link rel="icon" type="png" href="favicon.png">
+    <script src="https://kit.fontawesome.com/c55419a886.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="smallscreen.css">
+</head>
+<body>
+  <!--  -->
+  <div class="loader">
+    <span class="loader"></span>
+  </div>
+  <!--  -->
+    <header id="myHeader" class="">
+        <!-- <img src="logo.png" alt="" id="logo"> -->
+        <nav>
+           <a href="#home" style="--i:1" class="h">Home</a>
+           <a href="#knowledge" style="--i:2" class="k">Knowledge</a>
+           <a href="#porject" style="--i:3" class="p">Porject</a>
+           <a href="/about.html"  style="--i:4" class="a">About</a>
+           <button id="openmenu">
+              <span></span>
+              <span></span>
+           </button>
+        </nav>
+     </header>
+     <!--  -->
+     <!--  -->
+     <div id="page" class="">
+      <img src="gif.gif" alt="" style="width: 100%; height: 60%;">
+        <section id="home">
+         <div class="home-content">
+          <div class="img-home">
+            <img src="img.png" alt="img">
+            <span></span>
+          </div>
+            
+            <h3>Hello, It's me</h3>
+            <h1>Nitish Kushwaha And I'm a <span id="multitax"></span></h1>
+            <hr></hr>
+            <p>I am a front-end web developer. I can provide clean code and pixel perfect design.I also make the website more & <span id="typed">
+            </span></p>
+            <div class="social-link">
+              <a href="https://github.com/codewithnitish1" style="--i:7"><i class="fa-brands fa-github" id="h"></i></a>
+              <a href="https://twitter.com/@digitalnitishk" style="--i:8"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/codewith_nitish/" style="--i:9"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/Codewithnitish1" style="--i:10"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.youtube.com/@codewithnitish" style="--i:11"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <a href="Download CV" class="btn">Download CV</a>
+          </div>
+        </section>
+        <!-- <section id="Knowledge">
+          <img src="https://images.unsplash.com/photo-1708649290066-5f617003b93f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" alt="">
+        </section> -->
+     </div>
+  </body>
+  <script src="min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script>
+     var typed = new Typed('#multitax', {
+      strings: ['Web Developer', 'Youtuber', 'blogger'],
+      typeSpeed: 50,
+      backspeed: 80,
+      backdelay:1500,
+      loop: true, 
+    });
+
+    var typed = new Typed('#typed', {
+      strings: ['more interactive with web animations. I can provide clean code and pixel perfect design. I also make the website more and more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.'],
+      typeSpeed: 50,
+      backspeed: 10,
+      backdelay:1500,
+      loop: true, 
+    });
+  </script>
+</html>
