@@ -356,7 +356,7 @@ header.sticky {
   color: var(--col2);
  }
  .img-home img{
-   width:20%;
+   width:10%;
    border-radius: 50%;
    border: 2px solid var(--col2);
    background-image: linear-gradient( var(--col2), var(--col1));
