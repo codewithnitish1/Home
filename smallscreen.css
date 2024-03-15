@@ -2,6 +2,8 @@
 
    :root{
       --color: linear-gradient(orange,white,green);
+      --col2: #
+         --col1: #fff;
    }
     body {
         line-height: 1.6;
